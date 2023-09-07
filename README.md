@@ -140,11 +140,3 @@ git push origin feature/your-feature-name
 ```
 
 5. Open a pull request in the main repository.
-
-### License
-
-The E-Commerce Admin Panel is open source and released under the [MIT License](LICENSE). Feel free to modify and distribute the code as per the license terms.
-
----
-
-This concludes the readme for the E-Commerce Admin Panel built using React.js, Firebase, Remix Icons, React Router, Redux, Bootstrap, Reactstrap, Framer Motion, React Toastify, and Chart.js. Enjoy managing your e-commerce store with ease, efficiency, and insightful visualizations!
