@@ -1,0 +1,14 @@
+.table tr td img {
+  width: 80px !important;
+  height: 80px !important;
+  object-fit: contain;
+}
+
+td,
+th {
+  color: var(--primary-color);
+}
+
+td {
+  vertical-align: middle;
+}

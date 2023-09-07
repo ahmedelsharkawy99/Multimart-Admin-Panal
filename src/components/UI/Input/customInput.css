@@ -1,0 +1,36 @@
+.form__group {
+  margin-bottom: 30px;
+}
+
+.form__group input,
+.form__group select {
+  width: 100%;
+  border-radius: 5px;
+  padding: 8px 20px;
+  background-color: #fff;
+}
+
+.preview__container,
+.form__group input,
+.form__group select {
+  border: 1px solid var(--primary-color);
+}
+
+.form__group input:focus,
+.form__group select:focus {
+  outline: none;
+}
+
+.w-30 {
+  width: 30% !important;
+}
+
+@media only screen and (max-width: 567px) {
+  .form__group:last-of-type {
+    margin-bottom: 0px;
+  }
+
+  .w-30 {
+    width: 100% !important;
+  }
+}
