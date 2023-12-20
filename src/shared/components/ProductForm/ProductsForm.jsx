@@ -68,6 +68,7 @@ const ProductsForm = ({ children, formData, onChange, onSubmit }) => {
             <option value="sofa">Sofa</option>
             <option value="watch">Watch</option>
             <option value="wireless">Wireless</option>
+            <option value="mobile">Mobile</option>
           </select>
         </div>
       </div>
