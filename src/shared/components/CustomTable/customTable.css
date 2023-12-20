@@ -1,0 +1,50 @@
+.table tr td img {
+  width: 80px !important;
+  height: 80px !important;
+  object-fit: contain;
+}
+
+td,
+th {
+  color: var(--primary-color);
+  text-align: center;
+}
+
+td {
+  vertical-align: middle;
+  text-align: center;
+}
+
+td i {
+  cursor: pointer;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.actions span {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.actions button {
+  font: inherit;
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  width: 3rem;
+  text-align: center;
+  border-radius: 6px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: var(--primary-color);
+  color: white;
+}

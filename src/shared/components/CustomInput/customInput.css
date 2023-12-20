@@ -1,0 +1,91 @@
+.form__group {
+  margin-bottom: 30px;
+}
+
+.form__group input,
+.form__group select {
+  width: 100%;
+  border-radius: 5px;
+  padding: 8px 20px;
+  background-color: #fff;
+}
+
+.preview__container,
+.form__group input,
+.form__group select {
+  border: 1px solid var(--primary-color);
+}
+
+.form__group input:focus,
+.form__group select:focus {
+  outline: none;
+}
+
+.w-30 {
+  width: 30% !important;
+}
+
+.form__group input.switch {
+  position: relative;
+  height: 1.5rem !important;
+  width: 3rem !important;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  border-radius: 9999px !important;
+  background-color: rgba(100, 116, 139, 0.377);
+  transition: all 0.3s ease;
+}
+
+.form__group input.switch:disabled,
+.form__group input.switch:disabled::before {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.form__group input.switch:checked {
+  background-color: rgba(32, 151, 243, 1);
+}
+
+.form__group input.switch::before {
+  position: absolute;
+  content: "";
+  left: calc(1.5rem - 1.6rem);
+  top: calc(1.5rem - 1.6rem);
+  display: block;
+  height: 1.6rem;
+  width: 1.6rem;
+  cursor: pointer;
+  border: 1px solid rgba(100, 116, 139, 0.527);
+  border-radius: 9999px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0 3px 10px rgba(100, 116, 139, 0.327);
+  transition: all 0.3s ease;
+}
+
+.form__group input.switch:hover::before {
+  box-shadow: 0 0 0px 8px rgba(0, 0, 0, 0.15);
+}
+
+.form__group input.switch:checked:hover::before {
+  box-shadow: 0 0 0px 8px rgba(32, 151, 243, 0.15);
+}
+
+.form__group input.switch:checked:before {
+  transform: translateX(100%);
+  border-color: rgba(32, 151, 243, 1) !important;
+}
+
+.form__group input.switch:disabled:hover::before {
+  box-shadow: none;
+}
+
+@media only screen and (max-width: 567px) {
+  .form__group:last-of-type {
+    margin-bottom: 0px;
+  }
+
+  .w-30 {
+    width: 100% !important;
+  }
+}
